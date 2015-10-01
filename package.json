@@ -1,0 +1,22 @@
+{
+  "name": "china-tel-verify",
+  "version": "1.0.0",
+  "description": "China cellphone no verify",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maichong/china-tel-verify.git"
+  },
+  "keywords": [
+    "telphone",
+    "china",
+    "cellphone",
+    "verify",
+  ],
+  "author": "Liang<liang@maichong.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maichong/china-tel-verify/issues"
+  },
+  "homepage": "https://github.com/maichong/china-tel-verify#readme"
+}
