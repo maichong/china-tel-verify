@@ -13,8 +13,8 @@
  * @returns {boolean}
  */
 function isCMCC(tel) {
-	return /^(13[4-9]|15[012789]|18[23478]|178)\d+$/.test(tel);
-};
+  return /^(13[4-9]|15[012789]|18[23478]|178)\d+$/.test(tel);
+}
 
 /**
  * 检测号码是否为中国电信
@@ -22,8 +22,8 @@ function isCMCC(tel) {
  * @returns {boolean}
  */
 function isCTCC(tel) {
-	return /^(133|153|180|181|189|177)\d+$/.test(tel);
-};
+  return /^(133|153|180|181|189|177)\d+$/.test(tel);
+}
 
 /**
  * 检测号码是否为中国联通
@@ -31,8 +31,8 @@ function isCTCC(tel) {
  * @returns {boolean}
  */
 function isCUCC(tel) {
-	return /^(13[012]|15[56]|18[56]|176)\d+$/.test(tel);
-};
+  return /^(13[012]|15[56]|18[56]|176)\d+$/.test(tel);
+}
 
 /**
  * 检测号码是否为合法的中国手机号
@@ -40,11 +40,13 @@ function isCUCC(tel) {
  * @returns {boolean}
  */
 function verify(tel) {
-	return isCMCC(tel) || isCTCC(tel) || isCUCC(tel);
-};
+  return isCMCC(tel) || isCTCC(tel) || isCUCC(tel);
+}
 
 verify.isCMCC = isCMCC;
 verify.isCTCC = isCTCC;
 verify.isCUCC = isCUCC;
+verify.verify = verify;
+verify.default = verify;
 
 module.exports = verify;

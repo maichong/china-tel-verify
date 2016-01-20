@@ -1,6 +1,6 @@
 {
   "name": "china-tel-verify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "China cellphone no verify",
   "main": "index.js",
   "repository": {
