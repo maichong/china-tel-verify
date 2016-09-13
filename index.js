@@ -13,7 +13,7 @@
  * @returns {boolean}
  */
 function isCMCC(tel) {
-  return /^(13[4-9]|15[012789]|18[23478]|178)\d+$/.test(tel);
+  return /^(13[4-9]|15[012789]|18[23478]|178|147)\d+$/.test(tel);
 }
 
 /**
