@@ -13,7 +13,7 @@
  * @returns {boolean}
  */
 function isCMCC(tel) {
-  return /^(13[4-9]|15[012789]|18[23478]|178|147)\d+$/.test(tel);
+  return /^(13[4-9]|15[012789]|18[23478]|178|147)\d{8}$/.test(tel);
 }
 
 /**
@@ -22,7 +22,7 @@ function isCMCC(tel) {
  * @returns {boolean}
  */
 function isCTCC(tel) {
-  return /^(133|153|180|181|189|177|170)\d+$/.test(tel);
+  return /^(133|153|180|181|189|177|170)\d{8}$/.test(tel);
 }
 
 /**
@@ -31,7 +31,7 @@ function isCTCC(tel) {
  * @returns {boolean}
  */
 function isCUCC(tel) {
-  return /^(13[012]|15[56]|18[56]|176)\d+$/.test(tel);
+  return /^(13[012]|15[56]|18[56]|176)\d{8}$/.test(tel);
 }
 
 /**
