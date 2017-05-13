@@ -22,7 +22,7 @@ function isCMCC(tel) {
  * @returns {boolean}
  */
 function isCTCC(tel) {
-  return /^(133|153|180|181|189|170|171|173|175|177|)\d{8}$/.test(tel);
+  return /^(133|153|180|181|189|170|171|173|175|177)\d{8}$/.test(tel);
 }
 
 /**
