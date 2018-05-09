@@ -25,7 +25,7 @@ function isCMCC(tel) {
  * @returns {boolean}
  */
 function isCTCC(tel) {
-  return /^(133|149|153|17[347]|18[019])\d{8}$/.test(tel)
+  return /^(133|149|153|17[347]|18[019]|199)\d{8}$/.test(tel)
     || /^1349\d{7}$/.test(tel) // 卫星通信
     || /^170[012]\d{7}$/.test(tel) // 虚拟运营商
     ;
